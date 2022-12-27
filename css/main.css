@@ -7,7 +7,7 @@
 .body {
     position: relative;
     height: 200vh;
-    background: url('/imgs/background.jpg') fixed;
+    background: url('../imgs/background.jpg') fixed;
     background-size: cover;
 }
 
