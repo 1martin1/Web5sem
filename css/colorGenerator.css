@@ -1,0 +1,9 @@
+.error{
+    display: none;
+}
+
+.preloader{
+    position: absolute;
+    top: 120px;
+    left: 600px;
+}
