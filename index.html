@@ -3,36 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <title>MtgCardBase</title>
-    <link href="css/outline.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+<!--    <link href="css/outline.css" rel="stylesheet">-->
+<!--    <link href="css/style.css" rel="stylesheet">-->
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/header-s.css" rel="stylesheet">
+    <script src="js/loadTime.js"></script>
 </head>
-<body>
+<body class="body" onload="this">
 
-    <header>
-        <img src="imgs/tempImg.jpg" id="logo" width="10%">
-        <section id="name">
+    <header class="header">
+        <img src="imgs/tempImg.jpg" class="logo">
+        <section class="name text">
             <h1>Что-то про МТГ</h1>
         </section>
-        <nav id="menu">
-            <ol>
-                <li>Главное</li>
-                <li>Поиск карт по списку</li>
-                <li>Поиск карт по характеристике</li>
+        <nav class="nav text">
+            <ol class="menu">
+                <li class="current"><a href="index.html" target="_self">Главная</a></li>
+                <li><a href="rools.html" target="_self">Правила Игры</a></li>
+                <li><a href="feedback.html" target="_self">Предлажения по развитию</a></li>
             </ol>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>Краткое описание</h2>
-        </section>
-        <h3>Поиск списком</h3>
-        <h3>Поиск по характеристике</h3>
+    <main class="main">
+        <div  class="description">
+            <h2>Зачем вам этот сайт</h2>
+            <p class="text">блаблабла блаблаб лаблаблаб лаблаблаб лаблаблабла блаблабла блабла блаблабла блабла блаблаб лаблабл
+                аблаб лабла
+                блабл абла блаблаб лаблабла блаблабла блабла блабл аблаблаблаблаб лаб лаблаблабла блаблабл аблабл аблабл аблабла
+                блаблаб лабла блабл аблабла блабла блаб лаблаб лаблабл аблабл аблабл аблабла блабл аблаблабл аблабл аблаблабл абла
+                блаблабл аблаблабл аблаблаб лабла блабла блабла блабла блаб лаблабла блабла блабла блабла блаб лаблабл аблаб лабла
+                бла блаб лаблаб лабла блаблабл абл аблабла блаб лаблаблаб лаблаблаблаблаб лаблабл аблабл аблабла блаблабла блабла
+                блаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблаблабла</p>
+        </div>
+        <div class="find find_list">
+            <h3>Поиск списком</h3>
+        </div>
+        <div class="find find_characteristics">
+            <h3>Поиск по характеристике</h3>
+        </div>
     </main>
 
-    <footer>
+    <table class="table">
+        <tr>
+            <th>Тип карты</th>
+            <th>Является перманентом</th>
+            <th>Является заклинанием</th>
+        </tr>
+        <tr>
+            <td>артефакт</td>
+            <td>да</td>
+            <td>да</td>
+        </tr>
+        <tr>
+            <td>конспирация</td>
+            <td>нет</td>
+            <td>нет</td>
+        </tr>
+        <tr>
+            <td>существо</td>
+            <td>да</td>
+            <td>да</td>
+        </tr>
+        <tr>
+            <td>подземелье</td>
+            <td>нет</td>
+            <td>нет</td>
+        </tr>
+        <tr>
+            <td>чары</td>
+            <td>да</td>
+            <td>да</td>
+        </tr>
+        <tr>
+            <td>мгновенное заклинание</td>
+            <td>нет</td>
+            <td>да</td>
+        </tr>
+        <tr>
+            <td>земля</td>
+            <td>да</td>
+            <td>нет</td>
+        </tr>
+        <tr>
+            <td>феномен</td>
+            <td>нет</td>
+            <td>нет</td>
+        </tr>
+        <tr>
+            <td>измерение</td>
+            <td>нет</td>
+            <td>нет</td>
+        </tr>
+        <tr>
+            <td>planeswalker</td>
+            <td>да</td>
+            <td>да</td>
+        </tr>
+        <tr>
+            <td>замысел</td>
+            <td>нет</td>
+            <td>нет</td>
+        </tr>
+        <tr>
+            <td>волшебство</td>
+            <td>нет</td>
+            <td>да</td>
+        </tr>
+        <tr>
+            <td>племенное</td>
+            <td>нет</td>
+            <td>нет</td>
+        </tr>
+        <tr>
+            <td>авангард</td>
+            <td>нет</td>
+            <td>нет</td>
+        </tr>
+    </table>
+
+    <footer class="footer">
         <p>"Страшен не тот, кто не пропустил лендроп, а страшен тот кто пропустил лендроп"
             <sup>(с)Онтон, делающий вид что на руке не одни земли</sup></p>
+        <p id="load_time"></p>
     </footer>
 </body>
 </html>

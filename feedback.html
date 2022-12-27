@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>MtgCardBase</title>
+  <!--    <link href="css/outline.css" rel="stylesheet">-->
+  <!--    <link href="css/style.css" rel="stylesheet">-->
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <link href="css/header-s.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <script src="js/loadTime.js"></script>
+</head>
+<body class="body" onload="this">
+
+<header class="header">
+  <img src="imgs/tempImg.jpg" class="logo">
+  <section class="name text">
+    <h1>Что-то про МТГ</h1>
+  </section>
+  <nav class="nav text">
+    <ol class="menu">
+      <li><a href="index.html" target="_self">Главная</a></li>
+      <li><a href="rools.html" target="_self">Правила Игры</a></li>
+      <li class="current"><a href="feedback.html" target="_self">Предлажения по развитию</a></li>
+    </ol>
+  </nav>
+</header>
+
+<main class="main">
+  <div  class="description">
+    <h2>Ждем ваши отзывы и предложения:</h2>
+    <form id="reviews">
+      <fieldset name="field">
+        <p><label for="name">Имя </label><input id="name" type="text"></p>
+        <p><label for="email">E-mail </label><input type="email" id="email"></p>
+        <textarea id="message" rows="10" cols="45"></textarea><!--Поле для ввода сообщения-->
+      </fieldset>
+      <p><input type="submit" value="Отправить"></p>
+    </form>
+    <div id="table">
+      <script src="js/feedback.js"></script>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <p>"Страшен не тот, кто не пропустил лендроп, а страшен тот кто пропустил лендроп"
+    <sup>(с)Онтон, делающий вид что на руке не одни земли</sup></p>
+  <p id="load_time"></p>
+</footer>
+</body>
+</html>
