@@ -1,0 +1,40 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    position: relative;
+    height: 200vh;
+    background: url('/imgs/background.jpg') fixed;
+    background-size: cover;
+}
+
+.main{
+    margin-top: 70px;
+    height: auto;
+    position: relative;
+    width: 100%;
+    background-color: #0f9ab7a0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description{
+    align-items: start;
+    flex-basis: 100%;
+    width: 100%;
+    height: auto;
+
+}
+
+/*.text{*/
+/*    background: brown;*/
+/*}*/
+
+.find{
+    align-self: flex-end;
+    width: 50%;
+    height: 50vh;
+}

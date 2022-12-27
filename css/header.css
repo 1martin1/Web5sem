@@ -1,0 +1,57 @@
+.header {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #ff9ab7e0;
+}
+
+.logo{
+    height: 70px;
+    float: left;
+}
+
+.name{
+    height: 70px;
+    width: 30%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    height: auto;
+    width: 60%;
+    float: right;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu li{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.menu li:hover{
+    background-color: deeppink;
+    border-bottom: solid;
+}
+
+.current{
+    background-color: deeppink;
+}
+/*.menu li{*/
+/*    display: inline;*/
+/*}*/
